@@ -1,0 +1,113 @@
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #4CAF50; /* Green color for balance */
+  }
+  
+  .createTransaction {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    margin: 10px 0 5px;
+    color: #555;
+  }
+  
+  input[type="number"],
+  input[type="date"],
+  select,
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="number"]:focus,
+  input[type="date"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .transactionList {
+    margin-top: 20px;
+  }
+  
+  .transactionItem {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #2196F3; /* Blue for edit button */
+    color: white;
+  }
+  
+  .editButton:hover {
+    background-color: #1E88E5; /* Darker blue on hover */
+  }
+  
+  .deleteButton {
+    background-color: #f44336; /* Red for delete button */
+    color: white;
+  }
+  
+  .deleteButton:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
